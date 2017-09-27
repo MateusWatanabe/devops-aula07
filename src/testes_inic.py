@@ -4,7 +4,7 @@ erroInicializar = False
 jogovelha.inicializar()
 jogo = jogovelha.tabuleiro()
 if len(jogo) != 3:
-erroInicializar = True
+    erroInicializar = True
 else:
   for linha in jogo:
     if len(linha) != 3:
