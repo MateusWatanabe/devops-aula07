@@ -1,5 +1,5 @@
 TAB = []
-def inicializar() :
+def inicializar(o codigo) :
     TAB.append(['.','.','.'])
     TAB.append(['.','.','.'])
     TAB.append(['.','.','.'])
